@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d6460;
+}
+
+.button {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    background-color: #869934;
+    box-shadow: #339563  0 0 90px 90px;
+    border-radius: 460px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-size: 30px;
+}
+
+.button:hover{
+    text-decoration: underline;
+    box-shadow: #869934  0 0 90px 90px;
+}
+
+.message {
+    font-size: 100px;
+    cursor: default;
+}
+
+.message-success {
+    color: #00ff00;
+}
+
+.message-error {
+    color: #a90000ab;
+}
+
+.hidden {
+    display: none;
+}
