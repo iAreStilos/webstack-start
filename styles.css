@@ -10,15 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1d6460;
+    background-color: rgb(70, 70, 70);
 }
 
 .button {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 100px;
     display: flex;
-    background-color: #869934;
-    box-shadow: #339563  0 0 90px 90px;
+    background-color: rgb(252, 207,120);
+    box-shadow: rgb(252 207 120 / 28%) 0 0 30px 10px;
     border-radius: 460px;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,8 @@ body {
 
 .button:hover{
     text-decoration: underline;
-    box-shadow: #869934  0 0 90px 90px;
+    background-color: rgb(154, 230, 174);
+    box-shadow: rgb(154, 230, 174, 28%) 0 0 30px 10px;
 }
 
 .message {
